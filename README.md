@@ -16,6 +16,7 @@ cd your_weather_api_backend
 
 3. Create a .env file in the root directory of the project and add your OpenWeatherMap API key:
     OPENWEATHER_API_KEY=your_openweather_api_key_here
+```
 
 ## API Endpoint
 ### POST /getWeather
@@ -46,7 +47,7 @@ Response :
   }
 }
 
-##Dependencies
+## Dependencies
 
 - Express: Web framework for Node.js.
 - Axios: Promise-based HTTP client for making API requests.
