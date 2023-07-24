@@ -20,7 +20,7 @@ cd your_weather_api_backend
 
 ## API Endpoint
 ### POST /getWeather
-
+```bash
 Request :
 POST http://localhost:3000/getWeather
 Content-Type: application/json
@@ -46,10 +46,11 @@ Response :
     }
   }
 }
-
+```
 ## Dependencies
-
+```bash
 - Express: Web framework for Node.js.
 - Axios: Promise-based HTTP client for making API requests.
 - Cors: Middleware to enable CORS in Express.
 - dotenv: Loads environment variables from a .env file.
+```
